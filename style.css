@@ -1,0 +1,344 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/01/2018, 10:08:26
+    Author     : henrique.vieira
+*/
+
+@charset "UTF-8";
+
+body,div.interface{
+	background-color: rgb(0, 56, 115);
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: hidden;
+        opacity: .5;
+}
+
+div.interface{	
+	position:relative;			
+	margin:50px auto auto auto;
+	display:block;
+	width:1500px;
+	height:1069px;
+	border-style:solid;	
+}
+	
+
+h1#titulo{
+	position:relative;
+	font-size:50pt;
+	color:white;
+	text-align:center;
+	top:20px;
+	left:0px;
+}
+
+div.faixa {
+  position: relative;
+  background-color: white;
+  height: 10px;
+  left:20px;
+  width:1050px; 
+  top:-30px; 
+}
+
+img#som{
+	position:relative;
+	left:20px;
+	top:-150px;
+	margin-bottom:-120px;
+}
+
+img#metalsa{
+	position:relative;
+	left: 1368px;
+    top: -1612px;
+}
+
+p#metalsa2017{
+	position:relative;
+	left: 22px;
+    top: -1576px;
+	color:white;
+	font-size:10pt;
+}
+
+.botoes{	
+	width:400px;
+	height:166px;	
+   	display: inline-block;    
+    margin: 10px;
+	position:relative;
+	left:1070px;
+	top: -1555px;
+    border: 3px solid #000000;
+	font-size:30pt;
+}
+
+.resp{	
+	width: 134px;
+    height: 67.5px;
+    display: inline-block;
+    margin: 10px;
+    position: relative;
+    left: 10px;
+    top: -857px;
+    border: 3px solid #000000;
+    font-size: 30pt;
+}
+
+#resp-text{
+	position:relative;
+	text-align:center;
+	top:-30px;
+	
+}
+
+div.prob, .acionamentos{	
+	width: 630px;
+    height: 181.5px;
+    display: inline-block;
+    margin: 15px;
+    position: relative;
+    left: -651px;
+    top: -481px;
+    border: 3px solid #000000;
+    font-size: 30pt;
+}
+#acionamento-position, #prob-box{
+	border: 3px solid rgb(0, 56, 115);
+}
+
+ div.tot{
+	width:395px;
+	height:135px;	
+   	display: inline-block;    
+    margin: 10px;
+	position:relative;
+	left:1070px;
+	top:-1548px;
+    border: 3px solid rgb(0, 56, 115);
+	font-size:30pt;	
+ }
+
+ #LO{
+	 background-color:lightgreen;
+	 color:white;
+	opacity:0.5;
+ }
+ 
+ #TL{
+	 background-color:yellow;
+	 color:black;	
+	 opacity:0.5;
+ }
+ 
+ #EQ{
+	 background-color:orange;
+	 color:black;	
+	 opacity:0.5;
+ }
+ 
+ #EG{
+	 background-color:red;
+	 color:black;	
+	 opacity:0.5;
+ }
+ 
+ div.tot p#tot-center{	
+	 text-align:center;
+	 color:yellow;         
+ }
+  
+ div.ENN p#ENN1{	 
+	 text-align:center;
+	 color: rgb(0, 56, 115);	 
+ }
+  
+  div.ENN {
+	position:relative;	
+	width:395px;
+	height: 125px;	  	   
+    margin: 10px;	
+	left: 10px;
+    top: -30px;
+    border: 3px solid #000000;
+	font-size:30pt;	
+	background-color:white;
+  }
+
+  p#c1{
+	  position:relative;
+	  color:black;
+	  size:5pt;	 
+		        top: -2273px;
+    left: 1100px;
+  }
+  p#c2{
+	  position:relative;
+	  color:black;
+	  size:5pt;	 
+		        top: -2120px;
+    left: 1100px;;
+  }
+  p#c3{
+	  position:relative;
+	  color:black;
+	  size:5pt;	 
+		        top: -1967px;
+    left: 1100px;
+  }
+  
+  div.TIMER-BOX{
+    width: 360px;
+    height: 72px;
+    margin: 10px;
+    position: relative;
+    left: 691px;
+    top: -146px;
+    border: 3px solid #000000;    
+    background-color: white;    
+    
+  }
+  
+  .TIMER-BOX{
+      width: 100%; background-color: #360; line-height:60px; font-size:50px; color: black;  text-align:center;   
+  }
+  
+  
+  
+  #t2a{
+	  margin-top:-5px;
+  }
+  #t3a{
+	  margin-top:-8px;
+  }
+  
+  #ttb{
+	  margin-top:35px;
+	  height: 135px;
+	  top:-156px;     
+          line-height:130px; 
+  }
+ 
+ #sol-box{
+	     left: 5px;
+		 margin-top:-8px;
+		 top:-940px;
+ }
+ 
+ #acionamento-position{
+	     left: -661px;
+    top: -501px; 
+	 width:625px;	 
+ }
+ .btn-position{
+	 position:relative;
+	 left:25px;
+	 top:30px;	 
+	 cursor: pointer;
+ }
+ 
+ div.faixa-rodape {
+		position: relative;
+		background-color: white;
+		height: 2px;
+		top: -1576px; 	   
+}
+
+div.iniciar{
+	position: relative;
+	top:-2250px;
+	left:200px;
+	height:300px;
+}
+h2{
+	color:yellow;
+	font-size:50pt;
+	position:relative;
+	top: -240px;
+    left: 290px;
+}			
+		.triangle{
+		stroke-dasharray:17;		
+		animation:dash 2.5s cubic-bezier(0.35,0.04,0.63,0.95) infinite;
+		}
+		@keyframes dash{
+		
+		to{
+			stroke-dashoffset:136;
+		}
+		
+		}
+	svg{
+	position: relative;
+    top: -1851px;
+    left: 37px;
+    height: 291px;    
+	}
+	
+image, input{
+	cursor:pointer;		
+}
+
+input{
+	position:relative;
+	left:23px;
+	top:45px;	
+}
+
+.cimage{
+    z-index: 3;
+}
+
+.cimage1{
+    z-index: -3;
+}
+
+.cimage2{
+    z-index: -3;
+}
+
+
+input,textarea{
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:13pt;
+}
+
+textarea:hover{
+	-webkit-transition: all .5s ease-in;
+	background-color:#dddddd;
+}
+
+textarea{
+	
+	background-color:rgba(255,255,255,.5);
+}
+
+input:hover, .btn-position:hover {    
+	-webkit-transition: all .3s ease-in;
+	-webkit-transform:scale(1.2);
+}
+
+input.cimage1{
+    top:-84px;
+}
+
+input.cimage2{
+    top:-84px;
+    left:-414px;
+    
+}
+
+div.resp{
+	cursor:pointer;
+}
+
+
