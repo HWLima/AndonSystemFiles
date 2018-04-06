@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
 	
-		$('#texto').val("VERDE");
+		document.getElementById("texto").value =  "VERDE";
                 
                
 
@@ -43,7 +43,7 @@ function anomaliaDetectada(){
          document.getElementById("local-resposta").innerHTML = document.getElementById("ENN1").innerHTML;
          document.getElementById("data-resposta").innerHTML =  Date();
 	
-	$('#texto').val("AMARELO");
+	document.getElementById("texto").value =  "AMARELO";
         
 }
 
@@ -145,7 +145,7 @@ function reload(){
     jQuery('#EQ').animate({opacity:1}, 2000, "linear", function(){});
     ft1();
 	    
-   $('#texto').val("LARANJA");
+   document.getElementById("texto").value =  "LARANJA";
 } 
  }
  
@@ -225,7 +225,7 @@ function incrementaSolucionar1(){
     jQuery('#EG').animate({opacity:1}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:.5}, 2000, "linear", function(){});
 	    
-    $('#texto').val("VERMELHO");
+    document.getElementById("texto").value =  "VERMELHO";
     
      ft1();
 } 
