@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
 	
-		document.getElementById('ANDON-VERDE').click();  
+		 
                 
                
 
@@ -42,6 +42,8 @@ function anomaliaDetectada(){
          
          document.getElementById("local-resposta").innerHTML = document.getElementById("ENN1").innerHTML;
          document.getElementById("data-resposta").innerHTML =  Date();
+	
+	document.getElementById('ANDON-AMARELO').click(); 
         
 }
 
