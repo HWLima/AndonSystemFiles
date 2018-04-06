@@ -15,6 +15,8 @@ $(document).ready(function(){
 		$('#escalonar-img').css({'opacity': '0'});
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
+	
+		document.getElementById("texto").innerHTML = "VERDE";
                 
                
 
@@ -40,6 +42,8 @@ function anomaliaDetectada(){
          
          document.getElementById("local-resposta").innerHTML = document.getElementById("ENN1").innerHTML;
          document.getElementById("data-resposta").innerHTML =  Date();
+	
+	document.getElementById("texto").innerHTML = "AMARELO";
         
 }
 
@@ -140,6 +144,8 @@ function reload(){
     jQuery('#TL').animate({opacity:.5}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:1}, 2000, "linear", function(){});
     ft1();
+	    
+    document.getElementById("texto").innerHTML = "LARANJA";
 } 
  }
  
@@ -218,6 +224,8 @@ function incrementaSolucionar1(){
     
     jQuery('#EG').animate({opacity:1}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:.5}, 2000, "linear", function(){});
+	    
+    document.getElementById("texto").innerHTML = "VERMELHO";
     
      ft1();
 } 
