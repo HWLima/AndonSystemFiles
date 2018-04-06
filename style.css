@@ -58,13 +58,13 @@ img#som{
 img#metalsa{
 	position:relative;
 	left: 1368px;
-    top: -1612px;
+    top: -1785px;
 }
 
 p#metalsa2017{
 	position:relative;
 	left: 22px;
-    top: -1576px;
+    top: -1746px;
 	color:white;
 	font-size:10pt;
 }
@@ -76,7 +76,7 @@ p#metalsa2017{
     margin: 10px;
 	position:relative;
 	left:1070px;
-	top: -1555px;
+	top: -1739px;
     border: 3px solid #000000;
 	font-size:30pt;
 }
@@ -122,7 +122,7 @@ div.prob, .acionamentos{
     margin: 10px;
 	position:relative;
 	left:1070px;
-	top:-1548px;
+	top:-1728px;
     border: 3px solid rgb(0, 56, 115);
 	font-size:30pt;	
  }
@@ -177,21 +177,21 @@ div.prob, .acionamentos{
 	  position:relative;
 	  color:black;
 	  size:5pt;	 
-		        top: -2273px;
+		        top: -2452px;
     left: 1100px;
   }
   p#c2{
 	  position:relative;
 	  color:black;
 	  size:5pt;	 
-		        top: -2120px;
+		        top: -2300px;
     left: 1100px;;
   }
   p#c3{
 	  position:relative;
 	  color:black;
 	  size:5pt;	 
-		        top: -1967px;
+		        top: -2146px;
     left: 1100px;
   }
   
@@ -232,6 +232,13 @@ div.prob, .acionamentos{
 		 margin-top:-8px;
 		 top:-940px;
  }
+
+#sol-box{
+	     left: 5px;
+		 margin-top:-8px;
+		 top:-940px;
+ }
+ 
  
  #acionamento-position{
 	     left: -661px;
@@ -241,7 +248,7 @@ div.prob, .acionamentos{
  .btn-position{
 	 position:relative;
 	 left:25px;
-	 top:30px;	 
+	 top:-205px;	 
 	 cursor: pointer;
  }
  
@@ -249,7 +256,7 @@ div.prob, .acionamentos{
 		position: relative;
 		background-color: white;
 		height: 2px;
-		top: -1576px; 	   
+		top: -1756px; 	   
 }
 
 div.iniciar{
@@ -262,7 +269,7 @@ h2{
 	color:yellow;
 	font-size:50pt;
 	position:relative;
-	top: -240px;
+	top: -475px;
     left: 290px;
 }			
 		.triangle{
@@ -278,8 +285,8 @@ h2{
 		}
 	svg{
 	position: relative;
-    top: -1851px;
-    left: 37px;
+    top: -2036px;
+    left: 41px;
     height: 291px;    
 	}
 	
