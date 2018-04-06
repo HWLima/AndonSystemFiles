@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
 	
-		document.getElementById("texto").innerHTML = "VERDE";
+		document.getElementById("texto").innerHTML = "Henrique";
                 
                
 
