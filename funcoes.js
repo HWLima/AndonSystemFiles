@@ -15,6 +15,8 @@ $(document).ready(function(){
 		$('#escalonar-img').css({'opacity': '0'});
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
+	
+		document.getElementById('ANDON-VERDE').click();  
                 
                
 
@@ -143,6 +145,9 @@ function reload(){
     jQuery('#TL').animate({opacity:.5}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:1}, 2000, "linear", function(){});
     ft1();
+	    
+	    
+		document.getElementById('ANDON-LARANJA').click();  
 } 
  }
  
@@ -223,6 +228,8 @@ function incrementaSolucionar1(){
     jQuery('#EQ').animate({opacity:.5}, 2000, "linear", function(){});
     
      ft1();
+	    
+		document.getElementById('ANDON-VERMELHO').click();  
 } 
  }    
 
