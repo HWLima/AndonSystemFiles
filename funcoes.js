@@ -16,7 +16,7 @@ $(document).ready(function(){
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
 	
-		document.getElementById("texto").value =  "VERDE";
+		
                 
                
 
@@ -44,6 +44,7 @@ function anomaliaDetectada(){
          document.getElementById("data-resposta").innerHTML =  Date();
 	
 	document.getElementById("texto").value =  "AMARELO";
+	document.getElementById('button-form').click();  
         
 }
 
@@ -146,6 +147,7 @@ function reload(){
     ft1();
 	    
    document.getElementById("texto").value =  "LARANJA";
+   document.getElementById('button-form').click();  
 } 
  }
  
@@ -226,6 +228,7 @@ function incrementaSolucionar1(){
     jQuery('#EQ').animate({opacity:.5}, 2000, "linear", function(){});
 	    
     document.getElementById("texto").value =  "VERMELHO";
+    document.getElementById('button-form').click();  
     
      ft1();
 } 
