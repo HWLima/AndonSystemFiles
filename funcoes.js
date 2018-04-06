@@ -15,8 +15,6 @@ $(document).ready(function(){
 		$('#escalonar-img').css({'opacity': '0'});
 		$('#atendimento').css({'opacity': '0'});
 		$('svg').css({'opacity': '0'});visibility: hidden; 
-	
-		
                 
                
 
@@ -42,9 +40,6 @@ function anomaliaDetectada(){
          
          document.getElementById("local-resposta").innerHTML = document.getElementById("ENN1").innerHTML;
          document.getElementById("data-resposta").innerHTML =  Date();
-	
-	document.getElementById("texto").value =  "AMARELO";
-	document.getElementById('button-form').click();  
         
 }
 
@@ -95,7 +90,10 @@ function incrementaSolucionar(){
     document.getElementById("solucionar-img").disabled = "disabled";
     document.getElementById("escalonar-img").disabled = "disabled";
     jQuery('#ttb').animate({opacity:1}, 2000, "linear", function(){});
-    jQuery('.tot').animate({opacity:1}, 2000, "linear", function(){});    
+    jQuery('.tot').animate({opacity:1}, 2000, "linear", function(){});
+    
+    document.getElementById("problema").anable = "enabled";
+    
     
     
     timettb();
@@ -145,9 +143,6 @@ function reload(){
     jQuery('#TL').animate({opacity:.5}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:1}, 2000, "linear", function(){});
     ft1();
-	    
-   document.getElementById("texto").value =  "LARANJA";
-   document.getElementById('button-form').click();  
 } 
  }
  
@@ -226,9 +221,6 @@ function incrementaSolucionar1(){
     
     jQuery('#EG').animate({opacity:1}, 2000, "linear", function(){});
     jQuery('#EQ').animate({opacity:.5}, 2000, "linear", function(){});
-	    
-    document.getElementById("texto").value =  "VERMELHO";
-    document.getElementById('button-form').click();  
     
      ft1();
 } 
@@ -386,6 +378,11 @@ $(document).ready(function(){
 function gravatextarea(){
 
    document.getElementById("problema-resposta").innerHTML = $("#problema").val();
+  
+}
+function gravatextareasol(){
+
+   document.getElementById("desc-problema-resposta").innerHTML = $("#solução").val();
   
 }
 
